@@ -21,3 +21,5 @@ module.exports = function () {
     fs.mkdirSync("./archives/sites");
   }
 };
+
+// require fs is for requiring the fs from node
