@@ -24,7 +24,7 @@ describe("server", function() {
 
   describe("archived websites", function () {
     describe("GET", function () {
-      xit("should return the content of a website from the archive", function (done) {
+      it("should return the content of a website from the archive", function (done) {
         var fixtureName = "www.google.com";
         var fixturePath = archive.paths.archivedSites + "/" + fixtureName;
 
@@ -50,7 +50,7 @@ describe("server", function() {
     });
 
     describe("POST", function () {
-      xit("should append submitted sites to 'sites.txt'", function(done) {
+      it("should append submitted sites to 'sites.txt'", function(done) {
         var url = "www.example.com";
 
         // Reset the test file and process request
